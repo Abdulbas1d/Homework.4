@@ -1,23 +1,36 @@
 /* General Style */
-* {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 1920px;
+.container{
+    max-width: 1440px;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
 }
 
-.content {
-    width: 1440px;
-    background: var(--4, #FFF);
-    font-family: Gilroy;
+.content .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-logo a{
+    text-decoration: none;
+}
+
+.container-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
 }
 
 .logo a .img{
-    
+    width: 190px;
+    height: 48px;
+    margin: 36px 111px 36.23px 259px;
 }
